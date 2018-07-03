@@ -1,3 +1,5 @@
+//Simple Hello World Example
+//Run file $ node hello.js
 var http = require('http');
   http.createServer(function (req, res) {
     res.writeHead(200, {'Content-Type': 'text/plain'});
